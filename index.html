@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="César Cordova - Fotógrafo profesional radicando en la CDMX, México. Especializado en deportes, retratos, editorial, arquitectura y fotografía artística.">
+    <meta name="keywords" content="fotógrafo CDMX, fotografía México, César Cordova, fotógrafo profesional, book fotográfico, retrato, arquitectura">
+    <meta name="author" content="César Cordova">
+    <title>César Cordova - Fotógrafo Profesional CDMX | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="nav-links">
+                <a href="#gallery" class="nav-link">WORK</a>
+                <a href="#about" class="nav-link" data-page="about">SOBRE MI</a>
+                <a href="#contact" class="nav-link" data-page="contact">CONTACTO</a>
+            </div>
+            <div class="logo">
+                <span>CES</span>
+                <span>WOLF</span>
+            </div>
+            <div class="social-links">
+                <a href="https://twitter.com/thisscesar" target="_blank" rel="noopener noreferrer" aria-label="Twitter">𝕏</a>
+                <a href="https://instagram.com/ceswolf" target="_blank" rel="noopener noreferrer" aria-label="Instagram">📷</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Pantalla de Bienvenida -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">César Cordova</h1>
+            <p class="hero-subtitle">Fotógrafo radicando en la CDMX, México.</p>
+            <button class="cta-button" id="contactBtn">CONTACTAME</button>
+            <div class="hero-social">
+                <a href="https://twitter.com/thisscesar" target="_blank" rel="noopener noreferrer" aria-label="Twitter">𝕏</a>
+                <a href="https://instagram.com/ceswolf" target="_blank" rel="noopener noreferrer" aria-label="Instagram">📷</a>
+            </div>
+        </div>
+        <div class="scroll-indicator" id="scrollDown">
+            <span>↓</span>
+        </div>
+    </section>
+
+    <!-- Transición con nombre de categoría -->
+    <div class="category-transition">
+        <h2 class="transition-title"></h2>
+    </div>
+
+    <!-- Mosaico de Categorías -->
+    <section id="gallery" class="gallery-grid">
+        <div class="category-card" data-category="deportes">
+            <img src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800" alt="Deportes">
+            <div class="category-overlay">
+                <h3>DEPORTES</h3>
+            </div>
+        </div>
+        <div class="category-card" data-category="book">
+            <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=800" alt="Book">
+            <div class="category-overlay">
+                <h3>BOOK</h3>
+            </div>
+        </div>
+        <div class="category-card" data-category="retrato">
+            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=800" alt="Retrato">
+            <div class="category-overlay">
+                <h3>RETRATO</h3>
+            </div>
+        </div>
+        <div class="category-card" data-category="editorial">
+            <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=800" alt="Editorial">
+            <div class="category-overlay">
+                <h3>EDITORIAL</h3>
+            </div>
+        </div>
+        <div class="category-card" data-category="alimentos">
+            <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800" alt="Alimentos">
+            <div class="category-overlay">
+                <h3>ALIMENTOS Y BEBIDAS</h3>
+            </div>
+        </div>
+        <div class="category-card" data-category="arquitectura">
+            <img src="https://images.unsplash.com/photo-1486718448742-163732cd1544?w=800" alt="Arquitectura">
+            <div class="category-overlay">
+                <h3>ARQUITECTURA</h3>
+            </div>
+        </div>
+        <div class="category-card" data-category="street">
+            <img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=800" alt="Street">
+            <div class="category-overlay">
+                <h3>STREET</h3>
+            </div>
+        </div>
+        <div class="category-card" data-category="fineart">
+            <img src="https://images.unsplash.com/photo-1518991043280-1da0c82f93c6?w=800" alt="Fine Art">
+            <div class="category-overlay">
+                <h3>FINE ART</h3>
+            </div>
+        </div>
+        <div class="category-card" data-category="naturaleza">
+            <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800" alt="Naturaleza">
+            <div class="category-overlay">
+                <h3>NATURALEZA Y PAISAJE</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vista de Galería Individual -->
+    <section class="photo-gallery hidden">
+        <h2 class="gallery-title"></h2>
+        <div class="photos-grid"></div>
+        
+        <!-- Otros Trabajos -->
+        <div class="other-works">
+            <h3>Otros Trabajos</h3>
+            <div class="other-works-grid"></div>
+        </div>
+    </section>
+
+    <!-- Botón Scroll to Top -->
+    <button class="scroll-top" aria-label="Volver arriba">
+        <span>↑</span>
+    </button>
+
+    <!-- Página Sobre Mí -->
+    <section id="about" class="page-section hidden">
+        <div class="page-content">
+            <h2>Sobre Mí</h2>
+            <p>Fotógrafo profesional con sede en la Ciudad de México, especializado en capturar momentos únicos a través de mi lente. Mi trabajo abarca desde deportes y retratos hasta fotografía arquitectónica y artística.</p>
+            <p>Con más de 10 años de experiencia, he trabajado con diversas marcas y clientes, creando contenido visual que cuenta historias y genera emociones.</p>
+        </div>
+    </section>
+
+    <!-- Página Contacto -->
+    <section id="contact" class="page-section hidden">
+        <div class="page-content">
+            <h2>Contacto</h2>
+            <p>¿Tienes un proyecto en mente? Me encantaría escucharlo.</p>
+            <div class="contact-info">
+                <p><strong>Email:</strong> <a href="mailto:contacto@cesarwolf.com">contacto@cesarwolf.com</a></p>
+                <p><strong>Teléfono:</strong> <a href="tel:+5255123456778">+52 55 1234 5678</a></p>
+                <p><strong>Ubicación:</strong> Ciudad de México, México</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-social">
+            <a href="https://twitter.com/thisscesar" target="_blank" rel="noopener noreferrer" aria-label="Twitter">𝕏</a>
+            <a href="https://instagram.com/ceswolf" target="_blank" rel="noopener noreferrer" aria-label="Instagram">📷</a>
+        </div>
+        <p class="footer-credit">Designed by César Cordova</p>
+    </footer>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" aria-label="Cerrar">✕</button>
+        <button class="lightbox-prev" aria-label="Anterior">‹</button>
+        <button class="lightbox-next" aria-label="Siguiente">›</button>
+        <div class="lightbox-content">
+            <img src="" alt="Imagen ampliada" class="lightbox-img">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
